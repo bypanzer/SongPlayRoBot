@@ -40,7 +40,7 @@ async def song(client, message):
     try:
         download = audio.download(filename=f"{str(user_id)}")
     except Exception as ex:
-        await status.edit("Failed to download song 😶")
+        await status.edit("Musiqini yükləmək uğursuz oldu😶")
         LOGGER.error(ex)
         return ""
     rename = os.rename(download, f"{str(user_id)}.mp3")
