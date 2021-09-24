@@ -10,7 +10,7 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 
 start_text = """
 👋 𝗦𝗮𝗹𝗮𝗺 [{}](tg://user?id={}),
-\n\n𝗠ə𝗻  𝗠𝘂𝘀𝗶𝗾𝗶 𝘆ü𝗸𝗹ə𝗺ə 𝗯𝗼𝘁𝘂𝘆𝗮𝗺🎶
+\n\n𝗠ə𝗻  𝗠𝘂𝘀𝗶𝗾𝗶 𝘆ü𝗸𝗹ə𝗺ə 𝗯𝗼𝘁𝘂𝘆𝗮𝗺[🎶](link)
 𝗧ə𝗿𝗰ü𝗺ə 𝘃ə 𝗱ü𝘇ə𝗹𝗶ş𝗹ə𝗿 @EpicProjects 𝗺ə𝘅𝘀𝘂𝘀𝗱𝘂𝗿.
 İ𝘀𝘁ə𝗱𝗶𝘆𝗶𝗻 𝗺𝘂𝘀𝗶𝗾𝗶𝗻𝗶𝗻 𝗮𝗱ı𝗻ı 𝗺ə𝗻ə 𝗴ö𝗻𝗱ə𝗿 😍🥰🤗
 𝗠ə𝘀ə𝗹ə𝗻:
