@@ -21,7 +21,7 @@ async def broadcast(client, message):
             remove_chat_from_db(str(chat))
             pass
     await message.reply(
-        f"Message sent to {success} chat(s). {failed} chat(s) failed recieve message"
+        f"Mesaj {success} söhbətə(lər) göndərildi. {failed} söhbətə(lər) göndərmək uğursuz oldu."
     )
 
 
@@ -32,7 +32,7 @@ async def chatlist(client, message):
     for i in all_chats:
         if str(i).startswith("-"):
             chats.append(i)
-    chatfile = "List of chats.\n0. Chat ID | Members count | Invite Link\n"
+    chatfile = "Söhbətlər listi.\n0. Chat ID | Üzv Sayı | Dəvət Linki\n"
     P = 1
     for chat in chats:
         try:
